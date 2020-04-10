@@ -2,8 +2,6 @@ apt-get -y update && \
 	DEBIAN_FRONTEND=noninteractive TZ=Europe/Berlin apt-get -y install \
 	git \
 	build-essential \
-	r-base \
-	r-recommended \
 	libann-dev \
 	libarmadillo-dev \
 	cmake \
