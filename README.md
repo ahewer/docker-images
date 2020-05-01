@@ -10,7 +10,7 @@ In particular, the scripts take care of resolving and compiling the dependencies
 Please make sure that the following software is available:
 
 - [Docker](https://www.docker.com/)
-- a terminal emulator than handle shell scripts
+- a terminal emulator that can handle shell scripts
 
 ## Creating the images
 
@@ -23,12 +23,15 @@ sh ./build.sh
 to create the following images:
 
 - msp-build
+
   Image containing all necessary dependencies for compiling the required [MRI shape tools](https://github.com/ahewer/mri-shape-tools).
 
 - msp-runtime
+
   Image containing all necessary dependencies for running the required [MRI shape tools](https://github.com/ahewer/mri-shape-tools).
 
 - msp-framework
+
   Main image that contains everything you need to run the framework.
 
 ## Using the main image 
