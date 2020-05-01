@@ -5,6 +5,7 @@ After you assembled the docker images, run the command
 sh ./setup.sh
 ```
 to download the example MRI data and the associated configuration files.
+
 Afterwards, executing
 ```sh
 sh ./run.sh
