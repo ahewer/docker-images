@@ -38,7 +38,7 @@ to create the following images:
 
 The container running the *msp-framework* image can be given access to the data to be processed by using volume bindings.
 Furthermore, the output folder also can be bound to a volume of the container in order to access it in the host file system.
-Assuming the all required information for the framework (please consult the [documentation](https://github.com/ahewer/mri-shape-framework) of the framework for details) is located in the current folder, the following command runs the container in interactive mode and binds the necessary data to the correct volumes:
+Assuming all required information for the framework (please consult the [documentation](https://github.com/ahewer/mri-shape-framework) of the framework for details) is located in the current folder, the following command runs the container in interactive mode and binds the necessary data to the correct volumes:
 
 ```sh
 docker run -it \
